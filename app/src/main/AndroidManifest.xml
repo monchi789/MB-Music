@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CristianMonzonGuzman_Music">
         <activity
+            android:name=".Music"
+            android:exported="false" />
+        <activity
+            android:name=".Task"
+            android:exported="false" />
+        <activity
+            android:name=".Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
