@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="classic_music">
+
+        <item>Clair de Lune</item>
+        <item>In light of Dream</item>
+        <item>El Mesias</item>
+        <item>Les Toreadors</item>
+        <item>El danubio Azul</item>
+
+    </string-array>
+
+    <string-array name="rock_music">
+        <item>Clair de Lune</item>
+        <item>In light of Dream</item>
+        <item>El Mesias</item>
+        <item>In light of Dream</item>
+        <item>El Mesias</item>
+    </string-array>
+
+    <string-array name="jazz_music">
+        <item>Clair de Lune</item>
+        <item>In light of Dream</item>
+        <item>El Mesias</item>
+        <item>In light of Dream</item>
+        <item>El Mesias</item>
+    </string-array>
+
+    <string-array name="pop_music">
+        <item>Clair de Lune</item>
+        <item>In light of Dream</item>
+        <item>El Mesias</item>
+        <item>In light of Dream</item>
+        <item>El Mesias</item>
+    </string-array>
+
+    <string-array name="funk_music">
+        <item>Clair de Lune</item>
+        <item>In light of Dream</item>
+        <item>El Mesias</item>
+        <item>In light of Dream</item>
+        <item>El Mesias</item>
+    </string-array>
+
+</resources>
