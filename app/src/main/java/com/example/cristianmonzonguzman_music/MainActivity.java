@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void CallTask(){
 
-        Intent vTask = new Intent(this, Activity.class);
+        Intent vTask = new Intent(this, Task.class);
         startActivity(vTask);
     }
 }
