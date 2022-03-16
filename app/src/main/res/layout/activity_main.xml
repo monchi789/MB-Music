@@ -4,4 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    android:background="@color/beige"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="281dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btnActivity"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/orange"
+        android:drawableTop="@drawable/ic_task"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/actividad"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnTask"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/custom_button"
+        android:drawableTop="@drawable/ic_homework"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:backgroundTint="@color/yellow"
+        android:text="@string/tarea"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

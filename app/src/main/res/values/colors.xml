@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--  Add the colors  -->
+    <color name="yellow">#DBBE4A</color>
+    <color name="purple">#A95472</color>
+    <color name="green">#56AC82</color>
+    <color name="orange">#E77157</color>
+    <color name="beige">#F4F0E8</color>
+    <color name="transparent">#00000000 </color>
+
 </resources>

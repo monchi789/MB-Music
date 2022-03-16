@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CristianMonzonGuzman_Music</string>
+    <string name="todo">TODO</string>
+    <string name="button">Button</string>
+    <string name="actividad">Actividad</string>
+    <string name="tarea">Tarea</string>
 </resources>
