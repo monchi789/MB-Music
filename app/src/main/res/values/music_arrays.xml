@@ -13,34 +13,34 @@
 
     <string-array name="rock_music">
         <item>Smells like teen Spirit</item>
-        <item>In light of Dream</item>
-        <item>El Mesias</item>
-        <item>In light of Dream</item>
-        <item>El Mesias</item>
+        <item>Poster Child</item>
+        <item>Dark Necessities</item>
+        <item>Plastic Beach</item>
+        <item>Arabella</item>
     </string-array>
 
     <string-array name="jazz_music">
-        <item>Clair de Lune</item>
-        <item>In light of Dream</item>
-        <item>El Mesias</item>
-        <item>In light of Dream</item>
-        <item>El Mesias</item>
+        <item>Lonely Bed</item>
+        <item>Money Is The Name of The Game</item>
+        <item>Elevator To Heaven</item>
+        <item>Loneliest Road That I Know</item>
+        <item>Lonely World</item>
     </string-array>
 
     <string-array name="pop_music">
-        <item>Clair de Lune</item>
-        <item>In light of Dream</item>
-        <item>El Mesias</item>
-        <item>In light of Dream</item>
-        <item>El Mesias</item>
+        <item>Blinding Lights</item>
+        <item>Memories</item>
+        <item>Bad Guy</item>
+        <item>How Do You Sleep</item>
+        <item>Positions</item>
     </string-array>
 
     <string-array name="funk_music">
-        <item>Clair de Lune</item>
-        <item>In light of Dream</item>
-        <item>El Mesias</item>
-        <item>In light of Dream</item>
-        <item>El Mesias</item>
+        <item>Superstition</item>
+        <item>Word Up</item>
+        <item>Super Freak</item>
+        <item>Cutie Pie</item>
+        <item>More Bounce to the Ounce</item>
     </string-array>
 
 </resources>

@@ -7,6 +7,7 @@ import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -23,6 +24,9 @@ public class Music extends AppCompatActivity {
     // Declare String
     String name = "";
 
+    // Declare the textView
+    TextView txtAuthor;
+
     // Static String music
     static String music = "";
 
@@ -32,9 +36,10 @@ public class Music extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_music);
 
-        // Set ListView
+        // Set the items
         ltList = findViewById(R.id.ltList);
         btnBack = findViewById(R.id.btnBack);
+        txtAuthor = findViewById(R.id.txtAuthor);
 
         // Get the parameter
         music = getIntent().getStringExtra("music");
@@ -47,6 +52,10 @@ public class Music extends AppCompatActivity {
             // Get the name of item in listView
             name = ltList.getItemAtPosition(i).toString();
 
+            // Set text
+            txtAuthor.setText(name);
+
+            // Delete the spacing and replace by "_"
             name = name.replaceAll(" ", "_").toLowerCase(Locale.ROOT);
 
             Log.d("Name: ", name);
