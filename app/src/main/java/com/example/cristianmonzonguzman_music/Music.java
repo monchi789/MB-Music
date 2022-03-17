@@ -1,12 +1,16 @@
 package com.example.cristianmonzonguzman_music;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.Locale;
 
 public class Music extends AppCompatActivity {
 
@@ -16,8 +20,12 @@ public class Music extends AppCompatActivity {
     // Declare ListView
     ListView ltList;
 
+    // Declare String
+    String name = "";
+
     // Static String music
     static String music = "";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +41,24 @@ public class Music extends AppCompatActivity {
 
         // Define the method OnClick
         btnBack.setOnClickListener(view -> Callback());
+
+        ltList.setOnItemClickListener((adapterView, view, i, l) -> {
+
+            // Get the name of item in listView
+            name = ltList.getItemAtPosition(i).toString();
+
+            name = name.replaceAll(" ", "_").toLowerCase(Locale.ROOT);
+
+            Log.d("Name: ", name);
+
+
+            // Get the resources
+            int resID = getResources().getIdentifier(name, "raw", getPackageName());
+            CallMusic(resID);
+
+            Log.i("Position: ", String.valueOf(i));
+
+        });
 
         // Valid the parameter
         switch (music) {
@@ -59,7 +85,6 @@ public class Music extends AppCompatActivity {
 
             default:
         }
-
 
     }
 
@@ -121,4 +146,11 @@ public class Music extends AppCompatActivity {
         ltList.setAdapter(adapter);
 
     }
+
+    private void CallMusic(int path){
+        MediaPlayer mp = MediaPlayer.create(Music.this, path);
+        mp.start();
+
+    }
+
 }

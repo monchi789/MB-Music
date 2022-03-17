@@ -3,16 +3,16 @@
 
     <string-array name="classic_music">
 
-        <item>Clair de Lune</item>
-        <item>In light of Dream</item>
-        <item>El Mesias</item>
+        <item>Clair De Lune</item>
+        <item>Moonlight Sonata</item>
+        <item>Ave Maria</item>
         <item>Les Toreadors</item>
-        <item>El danubio Azul</item>
+        <item>The Blue Danube</item>
 
     </string-array>
 
     <string-array name="rock_music">
-        <item>Clair de Lune</item>
+        <item>Smells like teen Spirit</item>
         <item>In light of Dream</item>
         <item>El Mesias</item>
         <item>In light of Dream</item>
